@@ -6,10 +6,10 @@ declare otbr_forward_ingress_chain
 declare otbr_forward_egress_chain
 declare otbr_forward_nat64_chain
 declare otbr_fw_mark
-thread_if="wpan0"
-otbr_forward_ingress_chain="OTBR_FORWARD_INGRESS"
-otbr_forward_egress_chain="OTBR_FORWARD_EGRESS"
-otbr_forward_nat64_chain="OTBR_FORWARD_NAT64"
+thread_if="wpan1"
+otbr_forward_ingress_chain="OTBR_FORWARD_INGRESS_2"
+otbr_forward_egress_chain="OTBR_FORWARD_EGRESS_2"
+otbr_forward_nat64_chain="OTBR_FORWARD_NAT64_2"
 otbr_fw_mark="0x1001"
 
 # Map the configured otbr_log_level to the numeric level expected by the
